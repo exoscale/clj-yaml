@@ -160,10 +160,10 @@ the-bin: !!binary 0101")
   (testing "clj-time parses timestamps with more than millisecond precision correctly."
     (let [timestamp "2001-11-23 15:02:31.123456 -04:00"
           expected 1006542151123]
-      (is (= (.getTime (parse-string timestamp)) expected)))))
+      (is (= (.getTime ^Date (parse-string timestamp)) expected)))))
 
 (deftest maps-are-ordered
   (let [parsed (parse-string hashes-lists-yaml)
         [first second] (parsed :items)]
-    (= (keys first) '("part_no" "descrip" "price" "quantity"))
-    (= (keys second)'("part_no" "descrip" "price" "quantity" "owners"))))
+    (is (= (keys first) (map keyword '("part_no" "descrip" "price" "quantity"))))
+    (is (= (keys second) (map keyword '("part_no" "descrip" "price" "quantity" "owners"))))))

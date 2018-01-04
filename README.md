@@ -1,9 +1,9 @@
-`circleci/clj-yaml` provides [YAML](http://yaml.org) encoding and
+`exoscale/clj-yaml` provides [YAML](http://yaml.org) encoding and
 decoding for Clojure via the [snakeyaml][] Java library.
 
 [SnakeYAML]: https://bitbucket.org/asomov/snakeyaml/
 
-[![CircleCI Status](https://circleci.com/gh/circleci/clj-yaml.svg?style=svg)](https://circleci.com/gh/circleci/clj-yaml)
+
 
 (This is a maintained fork of [the original][]).
 
@@ -36,15 +36,15 @@ add `:keywords false` parameters to the `parse-string` function:
 
 ## Installation
 
-`circleci/clj-yaml` is available as a Maven artifact from [Clojars][]:
+`exoscale/clj-yaml` is available as a Maven artifact from [Clojars][]:
 
-[Clojars]: http://clojars.org/circleci/clj-yaml):
+[Clojars]: http://clojars.org/exoscale/clj-yaml):
 
-    :dependencies [[circleci/clj-yaml "0.5.5"]  ...]
+    :dependencies [[exoscale/clj-yaml "0.5.6"]  ...]
 
 ## Development
 
-    $ git clone git://github.com/circleci/clj-yaml.git
+    $ git clone git://github.com/exoscale/clj-yaml.git
     $ lein deps
     $ lein test
     $ lein install
