@@ -1,6 +1,6 @@
 (ns clj-yaml.core-test
-  (:use clojure.test)
-  (:use clj-yaml.core)
+  (:require [clj-yaml.core :refer :all]
+            [clojure.test :refer :all])
   (:import [java.util Date]))
 
 (def nested-hash-yaml
