@@ -1,14 +1,9 @@
 `exoscale/clj-yaml` provides [YAML](http://yaml.org) encoding and
-decoding for Clojure via the [snakeyaml][] Java library.
+decoding for Clojure via the [snakeyaml](https://bitbucket.org/asomov/snakeyaml/) Java library.
 
-[SnakeYAML]: https://bitbucket.org/asomov/snakeyaml/
+[![Build Status](https://secure.travis-ci.org/exoscale/clj-yaml.png)](http://travis-ci.org/exoscale/clj-yaml)
 
-
-
-(This is a maintained fork of [the original][]).
-
-[the original]: https://github.com/lancepantz/clj-yaml
-
+(This is a maintained fork of [the original](https://github.com/lancepantz/clj-yaml)).
 
 ## Usage
 
@@ -36,11 +31,10 @@ add `:keywords false` parameters to the `parse-string` function:
 
 ## Installation
 
-`exoscale/clj-yaml` is available as a Maven artifact from [Clojars][]:
+`exoscale/clj-yaml` is available as a Maven artifact from [Clojars](http://clojars.org/exoscale/clj-yaml):
 
-[Clojars]: http://clojars.org/exoscale/clj-yaml):
-
-    :dependencies [[exoscale/clj-yaml "0.5.6"]  ...]
+```clojure
+    [[exoscale/clj-yaml "0.5.6"]]
 
 ## Development
 
