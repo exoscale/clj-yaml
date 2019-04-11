@@ -1,4 +1,4 @@
-(defproject exoscale/clj-yaml "0.5.6"
+(defproject exoscale/clj-yaml "0.5.7"
   :description "YAML encoding and decoding for Clojure using SnakeYAML"
   :url "https://github.com/exoscale/clj-yaml"
   :license {:name "Eclipse Public License - v 1.0"
@@ -12,5 +12,5 @@
   :dependencies
   [[org.clojure/clojure "1.9.0"]
    [org.yaml/snakeyaml "1.19"]
-   [org.flatland/ordered "1.5.6"]]
+   [org.flatland/ordered "1.5.7"]]
   :global-vars {*warn-on-reflection* true})
