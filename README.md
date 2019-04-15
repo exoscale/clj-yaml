@@ -34,7 +34,7 @@ add `:keywords false` parameters to the `parse-string` function:
 `exoscale/clj-yaml` is available as a Maven artifact from [Clojars](http://clojars.org/exoscale/clj-yaml):
 
 ```clojure
-    [[exoscale/clj-yaml "0.5.6"]]
+    [[exoscale/clj-yaml "0.5.7"]]
 
 ## Development
 
