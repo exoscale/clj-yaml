@@ -2,6 +2,7 @@
 decoding for Clojure via the [snakeyaml](https://bitbucket.org/asomov/snakeyaml/) Java library.
 
 [![Build Status](https://secure.travis-ci.org/exoscale/clj-yaml.png)](http://travis-ci.org/exoscale/clj-yaml)
+[![Clojars Project](https://img.shields.io/clojars/v/exoscale/clj-yaml.svg)](https://clojars.org/exoscale/clj-yaml)
 
 (This is a maintained fork of [the original](https://github.com/lancepantz/clj-yaml)).
 
