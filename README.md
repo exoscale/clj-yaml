@@ -2,6 +2,7 @@
 decoding for Clojure via the [snakeyaml](https://bitbucket.org/asomov/snakeyaml/) Java library.
 
 [![Build Status](https://secure.travis-ci.org/exoscale/clj-yaml.png)](http://travis-ci.org/exoscale/clj-yaml)
+[![Clojars Project](https://img.shields.io/clojars/v/exoscale/clj-yaml.svg)](https://clojars.org/exoscale/clj-yaml)
 
 (This is a maintained fork of [the original](https://github.com/lancepantz/clj-yaml)).
 
@@ -34,7 +35,7 @@ add `:keywords false` parameters to the `parse-string` function:
 `exoscale/clj-yaml` is available as a Maven artifact from [Clojars](http://clojars.org/exoscale/clj-yaml):
 
 ```clojure
-    [[exoscale/clj-yaml "0.5.6"]]
+    [[exoscale/clj-yaml "0.5.7"]]
 
 ## Development
 
